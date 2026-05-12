@@ -1,3 +1,4 @@
+<h1>Version Indonesian Language</h1>
 # Website Madrasah Aliyah Ibrahimy
 
 Website profil sekolah berbasis web yang dibangun menggunakan React dan Vite. Proyek ini dirancang untuk memberikan informasi mengenai Madrasah Aliyah Ibrahimy, mencakup profil sekolah, kegiatan ekstrakurikuler, dan sistem penerimaan murid baru (SPMB).
@@ -40,7 +41,7 @@ Pastikan Anda sudah menginstal perangkat lunak berikut di perangkat Anda:
    npm run dev
 4. **Install icons**
    ```bash
-   install : npm install react-icons
+   npm install react-icons
 5. **Install react-componennt**
    ```bash
     npm install react-bootstrap bootstrap
