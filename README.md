@@ -50,20 +50,23 @@ Pastikan Anda sudah menginstal perangkat lunak berikut di perangkat Anda:
   ## Struktur folder Project :
 ```text
 Madrasah-Aliyah-Ibrahimy/
-├── public/                 # Aset publik (favicon, logo utama)
+├── node_modules/           # Folder dependensi npm (terinstal otomatis)
+├── public/                 # Aset publik (favicon, logo sekolah)
 ├── src/
-│   ├── assets/             # File statis (images, icons, svg)
-│   ├── components/         # Komponen Reusable (UI Elements)
-│   │   ├── Navbar/
-│   │   ├── Footer/
-│   │   └── UI/             # Button, Card, Input (Atomic Design)
-│   ├── pages/              # Halaman Utama (Beranda, Tentang, SPMB)
-│   ├── layouts/            # Layout pembungkus (MainLayout.jsx)
-│   ├── routes/             # Konfigurasi Routing
-│   ├── styles/             # Global CSS atau Tailwind
-│   ├── App.jsx             # Root Component
-│   └── main.jsx            # Entry Point
-├── .gitignore
-├── package.json
-├── tailwind.config.js
-└── vite.config.js
+│   ├── assets/             # File gambar, svg, dan branding
+│   ├── components/         # Komponen UI Reusable
+│   │   ├── Navbar/         # Navigasi (React Bootstrap)
+│   │   ├── Footer/         # Footer informasi sekolah
+│   │   └── UI/             # Tombol & Card kustom
+│   ├── pages/              # Komponen Halaman (Beranda, Tentang, SPMB)
+│   ├── layouts/            # Layout utama (MainLayout.jsx)
+│   ├── routes/             # Konfigurasi React Router Dom v7
+│   ├── styles/             # Custom CSS & Bootstrap overrides
+│   │   └── App.css         # Styling global
+│   ├── App.jsx             # Entry routing & global provider
+│   └── main.jsx            # Entry point (Import Bootstrap CSS di sini)
+├── .gitignore              # Daftar file yang diabaikan Git
+├── index.html              # Template HTML utama
+├── package.json            # Berisi: bootstrap, react-bootstrap, react-icons, react-router-dom
+└── vite.config.js          # Konfigurasi Vite
+
