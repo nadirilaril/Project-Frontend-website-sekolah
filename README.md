@@ -47,15 +47,23 @@ Pastikan Anda sudah menginstal perangkat lunak berikut di perangkat Anda:
 6. **Install react-router-dom
    ```bash
    npm install react-router-dom
-  ## Struktur folder :
-  Madrasah Aliyah Ibrahimy/
-├── public/              # Aset statis (Logo, Gambar Sekolah)
+  ## Struktur folder Project :
+
+Madrasah-Aliyah-Ibrahimy/
+├── public/                 # Aset publik (favicon, logo utama)
 ├── src/
-│   ├── assets/          # File gambar dan SVG
-│   ├── components/      # Komponen UI (NavBar, Footer, dll)
-│   ├── pages/           # Halaman utama (Beranda, Tentang, SPMB)
-│   ├── App.jsx          # Konfigurasi routing utama
-│   ├── main.jsx         # Entry point aplikasi
-│   └── index.css        # Styling global
-├── package.json         # Daftar dependensi dan script
-└── vite.config.js       # Konfigurasi Vite
+│   ├── assets/             # File statis (images, icons, svg)
+│   ├── components/         # Komponen Reusable (UI Elements)
+│   │   ├── Navbar/
+│   │   ├── Footer/
+│   │   └── UI/             # Button, Card, Input (Atomic Design)
+│   ├── pages/              # Halaman Utama (Beranda, Tentang, SPMB)
+│   ├── layouts/            # Layout pembungkus (MainLayout.jsx)
+│   ├── routes/             # Konfigurasi Routing (optional jika App.jsx terlalu penuh)
+│   ├── styles/             # Global CSS atau Tailwind Config tambahan
+│   ├── App.jsx             # Root Component & Route Provider
+│   └── main.jsx            # Entry Point
+├── .gitignore
+├── package.json
+├── tailwind.config.js      # Jika menggunakan Tailwind
+└── vite.config.js
