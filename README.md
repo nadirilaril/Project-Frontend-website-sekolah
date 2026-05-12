@@ -48,7 +48,7 @@ Pastikan Anda sudah menginstal perangkat lunak berikut di perangkat Anda:
    ```bash
    npm install react-router-dom
   ## Struktur folder Project :
-
+```text
 Madrasah-Aliyah-Ibrahimy/
 ├── public/                 # Aset publik (favicon, logo utama)
 ├── src/
@@ -59,11 +59,11 @@ Madrasah-Aliyah-Ibrahimy/
 │   │   └── UI/             # Button, Card, Input (Atomic Design)
 │   ├── pages/              # Halaman Utama (Beranda, Tentang, SPMB)
 │   ├── layouts/            # Layout pembungkus (MainLayout.jsx)
-│   ├── routes/             # Konfigurasi Routing (optional jika App.jsx terlalu penuh)
-│   ├── styles/             # Global CSS atau Tailwind Config tambahan
-│   ├── App.jsx             # Root Component & Route Provider
+│   ├── routes/             # Konfigurasi Routing
+│   ├── styles/             # Global CSS atau Tailwind
+│   ├── App.jsx             # Root Component
 │   └── main.jsx            # Entry Point
 ├── .gitignore
 ├── package.json
-├── tailwind.config.js      # Jika menggunakan Tailwind
+├── tailwind.config.js
 └── vite.config.js
