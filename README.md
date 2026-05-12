@@ -1,4 +1,4 @@
-<h1>Indonesian Language </h1>
+<h1>Bahasa Indonesia</h1>
 # Website Madrasah Aliyah Ibrahimy
 
 Website profil sekolah berbasis web yang dibangun menggunakan React dan Vite. Proyek ini dirancang untuk memberikan informasi mengenai Madrasah Aliyah Ibrahimy, mencakup profil sekolah, kegiatan ekstrakurikuler, dan sistem penerimaan murid baru (SPMB).
